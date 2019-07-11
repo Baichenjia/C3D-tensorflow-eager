@@ -22,9 +22,9 @@ The original paper is "Learning Spatiotemporal Features with 3D Convolutional Ne
 ## Train
 1. `python train.py` will train C3D model for `5000` steps. The trained model will saved in `log/models` directory, and  training log will saved in `log/acc_log.npy`, `loss_train_log.npy`, and `loss_val_loss.npy`.
 2. `python plot_res.py` will save the figure of training result in `log/pic` according to training log file. 
-<img src="log/pic/loss_train.jpg" alt="Training Loss" width="50%">
-<img src="log/pic/loss_val.jpg" alt="Validation Loss" width="50%">
-<img src="log/pic/acc_val.jpg" alt="Validation accuracy" width="50%">
+<img src="log/pic/loss_train.jpg" alt="Training Loss" width="80%">
+<img src="log/pic/loss_val.jpg" alt="Validation Loss" width="80%">
+<img src="log/pic/acc_val.jpg" alt="Validation accuracy" width="80%">
 
 [1]: https://www.tensorflow.org/
 [2]: http://pillow.readthedocs.io/en/3.1.x/reference/Image.html
